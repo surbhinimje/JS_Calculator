@@ -71,7 +71,7 @@ td{
   color: black;
   border: none;
   display: flex;
-   
+   width:70%;
   font-size: 1.5rem;
   text-align: right;
   align-items: flex-end;
@@ -89,7 +89,7 @@ td{
   padding: 30px 60px;
   font-size: 2.75rem;
   margin-top: 5%;
-   width: 60%; 
+   
  }
   table{
     width:80%;
