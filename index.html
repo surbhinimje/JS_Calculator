@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<div class="calc-body">
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+
+    <!-- Calculator Display Screen -->
+    <div class="calc-screen">
+        <div id="calc-operation"></div>
+        <div id="calc-typed"></div>
+    </div>
+    
+    <!-- Calculator Buttons -->
+    <div class="calc-button-row">
+        <button class="ac" value="AC" onclick="clearScreen()">AC</button>
+        <button class="opt" onclick="c()">C</button>
+        <button class="opt op" onclick="op('%')">&#37;</button>
+        <button class="opt op" onclick="op('/')">&#247;</button>
+        <button onclick="display('7')">7</button>
+        <button onclick="display('8')">8</button>
+        <button onclick="display('9')">9</button>
+        <button class="opt op" onclick="op('*')">&#215;</button>
+        <button onclick="display('4')">4</button>
+        <button onclick="display('5')">5</button>
+        <button onclick="display('6')">6</button>
+        <button class="opt op" onclick="op('-')">&#8722;</button>
+        <button onclick="display('1')">1</button>
+        <button onclick="display('2')">2</button>
+        <button onclick="display('3')">3</button>
+        <button class="opt op" onclick="op('+')">&#43;</button>
+        <button onclick="display('0')">0</button>
+        <button onclick="display('.')">.</button>
+        <button onclick="display('00')">00</button>
+        <button class="opt" onclick="calculate('=')">&#61;</button>
+    </div>
+    </div>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+    </html>
